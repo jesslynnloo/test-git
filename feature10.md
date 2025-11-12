@@ -1,3 +1,2 @@
-﻿This is a new file in feature/1.2 branch
-
+﻿This is a new file in feature/1.1 branch
 
