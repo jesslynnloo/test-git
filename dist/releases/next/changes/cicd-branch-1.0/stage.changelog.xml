@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+<include file="dev_devops_1\sequences\dbtools$execution_history_seq.sql" relativeToChangelogFile="true"/>
+<include file="dev_devops_1\tables\dbtools$execution_history.sql" relativeToChangelogFile="true"/>
+<include file="dev_devops_1\tables\test_table.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>
